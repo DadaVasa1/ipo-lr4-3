@@ -1,4 +1,8 @@
+
 x = int(input("Введи значение x:"))  
-for i in range(1,x):
-    if i % 2 != 0:
-        print(i)
+i = 1
+res = 1
+while i <= x:
+    res *= i
+    i += 1
+print(res)
